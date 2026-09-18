@@ -10,7 +10,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("v1/wallets")
-//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class WalletController {
 
 	@Autowired
